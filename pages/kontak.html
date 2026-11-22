@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Kontak - Miscera Store</title>
+
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+<header>
+    <h1>MISCERA STORE</h1>
+
+    <nav>
+        <a href="../index.html">Home</a>
+        <a href="../index.html#produk">Produk</a>
+        <a href="layanan.html">Layanan</a>
+        <a href="tentang.html">Tentang</a>
+        <a href="kontak.html">Kontak</a>
+    </nav>
+</header>
+
+<main>
+    <section class="section">
+        <h2>Kontak Kami</h2>
+
+        <p>
+            Silakan isi formulir berikut untuk menanyakan
+            produk atau menyampaikan kebutuhan pemesanan.
+        </p>
+
+        <p>Instagram: @miscerastore</p>
+        <p>WhatsApp: 08xxxxxxxxxx</p>
+
+        <h3>Formulir Pemesanan</h3>
+
+        <form action="#" method="get">
+
+            <label for="nama">Nama Lengkap</label>
+            <input
+                type="text"
+                id="nama"
+                name="nama"
+                placeholder="Masukkan nama lengkap"
+                required
+                minlength="3"
+            >
+
+            <label for="email">Email</label>
+            <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="contoh@email.com"
+                required
+            >
+
+            <label for="produk">Pilih Produk</label>
+            <select id="produk" name="produk" required>
+                <option value="">-- Pilih Produk --</option>
+                <option value="Jersey">Jersey</option>
+                <option value="Sepatu">Sepatu</option>
+                <option value="Celana">Celana</option>
+                <option value="Jaket">Jaket</option>
+            </select>
+
+            <label for="jumlah">Jumlah Pesanan</label>
+            <input
+                type="number"
+                id="jumlah"
+                name="jumlah"
+                min="1"
+                max="100"
+                required
+            >
+
+            <label for="alamat">Alamat Pengiriman</label>
+            <textarea
+                id="alamat"
+                name="alamat"
+                rows="4"
+                placeholder="Masukkan alamat pengiriman"
+                required
+            ></textarea>
+
+            <button type="submit">Kirim Pesanan</button>
+
+        </form>
+
+        <a href="../index.html" class="tombol">
+            Kembali ke Home
+        </a>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2026 Miscera Store.</p>
+</footer>
+
+</body>
+                                        </html>
